@@ -1,24 +1,22 @@
-<<<<<<< HEAD
-# tasks_mvvm_
-=======
-<<<<<<< HEAD
-# tasks_mvvm_
-=======
-# tasks_mvvm
+# 숙련 심화 과제 제출
 
-A new Flutter project.
+## 완성 범위
+ - firebase 연동 하려 했으나 이유 모를 원인으로 실패
+ - List<ToDoModel> 을 freezed 이용해 클래스 정의함
+ - xcode, 에뮬레이터, 실행 불가로 인해 과제를 진행하지 못함
 
-## Getting Started
+## 어려웠던 점
+ - firebase 이용 방법
+ - xcode 환경 설정 에러
+ - 원래 프로젝트 -> mvvm 형태로 변환
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> b881bd7 (제출)
->>>>>>> 6cdd581 (finish)
+### 트러블 슈팅
+1. firebase xcode 충돌?
+   - 연동 과정에서 계속해서 xcode 설정과 충돌이 일어남
+   - ios 버전이 10.0 으로 되어있어 최신 버전으로 변경함 -> 13.0, 15.0
+   - 변경 후 xcode에 숨어있던 버전도 오류가 생김
+   - 숨겨진 버전 전부 13.0, 15.0으로 변경하였음
+   - 그럼에도 계속해서 충돌이 일어나 에뮬레이터가 작동하지 않는 오류를 마주함
+   - ai, 블로그, 구글링에도 전혀 원인을 찾을 수 없었음
+   - 프로젝트를 새로 만들어 실행했음에도 오류가 계속해서 나타남
+   - 결국 해결하지 못하고 제출하게됨
